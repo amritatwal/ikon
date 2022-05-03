@@ -1,7 +1,7 @@
 {
   "name": "ikonise",
   "version": "1.0.0",
-  "description": "User icons to use in React applications",
+  "description": "Easy and flexible icons to use in React applications",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

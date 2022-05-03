@@ -1,20 +1,19 @@
 import * as React from 'react';
 
 /*
-*
-*
+* An example icon 
 */
 
 interface IconProps {
-  name: string,
+  initials: string,
   bgColour: string,
   colour: string
 }
 
-export const exampleIcon: React.FC<IconProps> = ({ name, bgColour, colour }) => {
+export const exampleIcon: React.FC<IconProps> = ({ initials, bgColour, colour }) => {
   return (
     <div className={"icon-example"}>
-      Hello
+      {initials}
     </div>);
 };
 
