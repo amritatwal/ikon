@@ -1,5 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
+
 /*
 * An example icon 
 */
@@ -11,7 +12,7 @@ interface IconProps {
 }
 
 
-export const ExampleIcon: React.FC<IconProps> = ({ initials, bgColour, colour }) => {
+const ExampleIcon: React.FC<IconProps> = ({ initials, bgColour, colour }) => {
 
   const Icon = styled.button`
     background: ${bgColour};
@@ -35,4 +36,4 @@ export const ExampleIcon: React.FC<IconProps> = ({ initials, bgColour, colour })
   );
 };
 
-
+export default ExampleIcon
